@@ -20,7 +20,7 @@ namespace testSSH
 
             string remoteDirectory = "/Prod/Test/";
             string localDirectory = @"C:\temp\*.txt";
-
+            string test = "test";
             // Setup session options
             SessionOptions sessionOptions = new SessionOptions
             {
